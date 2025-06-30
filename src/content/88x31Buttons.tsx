@@ -4,8 +4,8 @@ export const buttons = [
         "website": "https://devlencio.net/",
     },
     {
-        "image": "88x31s/dam.gif",
-        "website": "https://damcraft.de/",
+        "image": "88x31s/lina.gif",
+        "website": "https://lina.sh/",
     },
     {
         "image": "88x31s/amr.gif",

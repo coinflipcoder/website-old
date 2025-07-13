@@ -1,6 +1,6 @@
 ---
-title: "Transcending beyond Github (Pages)"
-date: "2025-03-05"
+title: 'Transcending beyond Github (Pages)'
+date: '2025-03-05'
 ---
 
 Since its inception, this website has been hosted with GitHub Pages. It's a great service, it's free, and it integrates well with the Repository.

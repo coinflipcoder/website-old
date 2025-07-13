@@ -1,33 +1,33 @@
 ---
-title: "Markdown Playground"
-date: "1337-01-01"
+title: 'Markdown Playground'
+date: '1337-01-01'
 ---
 
 # Markdown: Syntax
 
-* [Overview](#overview)
-    * [Philosophy](#philosophy)
-    * [Inline HTML](#html)
-    * [Automatic Escaping for Special Characters](#autoescape)
-* [Block Elements](#block)
-    * [Paragraphs and Line Breaks](#p)
-    * [Headers](#header)
-    * [Blockquotes](#blockquote)
-    * [Lists](#list)
-    * [Code Blocks](#precode)
-    * [Horizontal Rules](#hr)
-* [Span Elements](#span)
-    * [Links](#link)
-    * [Emphasis](#em)
-    * [Code](#code)
-    * [Images](#img)
-* [Miscellaneous](#misc)
-    * [Backslash Escapes](#backslash)
-    * [Automatic Links](#autolink)
+- [Overview](#overview)
+  - [Philosophy](#philosophy)
+  - [Inline HTML](#html)
+  - [Automatic Escaping for Special Characters](#autoescape)
+- [Block Elements](#block)
+  - [Paragraphs and Line Breaks](#p)
+  - [Headers](#header)
+  - [Blockquotes](#blockquote)
+  - [Lists](#list)
+  - [Code Blocks](#precode)
+  - [Horizontal Rules](#hr)
+- [Span Elements](#span)
+  - [Links](#link)
+  - [Emphasis](#em)
+  - [Code](#code)
+  - [Images](#img)
+- [Miscellaneous](#misc)
+  - [Backslash Escapes](#backslash)
+  - [Automatic Links](#autolink)
 
 **Note:** This document is itself written using Markdown.
 
-----
+---
 
 ## Overview
 
@@ -60,7 +60,7 @@ significantly from most other text-to-HTML formatters (including Movable
 Type's "Convert Line Breaks" option) which translate every line break
 character in a paragraph into a `<br />` tag.
 
-When you *do* want to insert a `<br />` break tag using Markdown, you
+When you _do_ want to insert a `<br />` break tag using Markdown, you
 end a line with two or more spaces, then type return.
 
 ### Headers
@@ -129,15 +129,15 @@ Markdown supports ordered (numbered) and unordered (bulleted) lists.
 Unordered lists use asterisks, pluses, and hyphens -- interchangably
 -- as list markers:
 
-* Red
-* Green
-* Blue
+- Red
+- Green
+- Blue
 
 is equivalent to:
 
-+ Red
-+ Green
-+ Blue
+- Red
+- Green
+- Blue
 
 and:
 
@@ -165,7 +165,7 @@ or even:
 
 3. Bird
 1. McHale
-8. Parish
+1. Parish
 
 you'd get the exact same HTML output. The point is, if you want to,
 you can use ordinal numbers in your ordered Markdown lists, so that
@@ -174,18 +174,18 @@ But if you want to be lazy, you don't have to.
 
 To make lists look nice, you can wrap items with hanging indents:
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+- Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
   Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
   viverra nec, fringilla in, laoreet vitae, risus.
-* Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+- Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
   Suspendisse id sem consectetuer libero luctus adipiscing.
 
 But if you want to be lazy, you don't have to:
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+- Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
   Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
   viverra nec, fringilla in, laoreet vitae, risus.
-* Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+- Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
   Suspendisse id sem consectetuer libero luctus adipiscing.
 
 List items may consist of multiple paragraphs. Each subsequent
@@ -206,26 +206,26 @@ It looks nice if you indent every line of the subsequent
 paragraphs, but here again, Markdown will allow you to be
 lazy:
 
-* This is a list item with two paragraphs.
+- This is a list item with two paragraphs.
 
   This is the second paragraph in the list item. You're
   only required to indent the first line. Lorem ipsum dolor
   sit amet, consectetuer adipiscing elit.
 
-* Another item in the same list.
+- Another item in the same list.
 
 To put a blockquote within a list item, the blockquote's `>`
 delimiters need to be indented:
 
-* A list item with a blockquote:
+- A list item with a blockquote:
 
   > This is a blockquote
   > inside a list item.
 
 To put a code block within a list item, the code block needs
-to be indented *twice* -- 8 spaces or two tabs:
+to be indented _twice_ -- 8 spaces or two tabs:
 
-* A list item with a code block:
+- A list item with a code block:
 
       <code goes here>
 
@@ -276,13 +276,13 @@ end tell
 
 ### Links
 
-Markdown supports two style of links: *inline* and *reference*.
+Markdown supports two style of links: _inline_ and _reference_.
 
 In both styles, the link text is delimited by [square brackets].
 
 To create an inline link, use a set of regular parentheses immediately
 after the link text's closing square bracket. Inside the parentheses,
-put the URL where you want the link to point, along with an *optional*
+put the URL where you want the link to point, along with an _optional_
 title for the link, surrounded in quotes. For example:
 
 This is [an example](http://example.com/) inline link.
@@ -296,13 +296,13 @@ emphasis. Text wrapped with one `*` or `_` will be wrapped with an
 HTML `<em>` tag; double `*`'s or `_`'s will be wrapped with an HTML
 `<strong>` tag. E.g., this input:
 
-*single asterisks*
+_single asterisks_
 
 _single underscores_
 
 **double asterisks**
 
-__double underscores__
+**double underscores**
 
 ### Code
 

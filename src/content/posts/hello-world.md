@@ -1,6 +1,6 @@
 ---
-title: "Hello, World!"
-date: "2024-11-26"
+title: 'Hello, World!'
+date: '2024-11-26'
 ---
 
 Hello there! This is my first post, of probably exactly one post. In this blog I want to write about my projects and other things I think are cool.

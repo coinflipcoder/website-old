@@ -1,16 +1,12 @@
-import React from "react";
+import React from 'react'
 
 type GenericCardProps = {
-    children: React.ReactNode;
-    className?: string; // To add any custom classes
-};
+  children: React.ReactNode
+  className?: string // To add any custom classes
+}
 
 const GenericCard = ({ children, className }: GenericCardProps) => {
-    return (
-        <div className={`bg-neutral-800 p-4 rounded-lg shadow-lg mt-4 overflow-x-hidden ${className}`}>
-            {children}
-        </div>
-    );
-};
+  return <div className={`mt-4 overflow-x-hidden rounded-lg bg-neutral-800 p-4 shadow-lg ${className}`}>{children}</div>
+}
 
-export default GenericCard;
+export default GenericCard

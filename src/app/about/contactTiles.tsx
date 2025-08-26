@@ -3,7 +3,7 @@ const contactLinks = [
     platform: 'Discord',
     url: 'https://discord.com/users/438730703417376769',
     icon: ' ',
-    name: '@fuck_you_discrd',
+    name: '@coinflipcoder',
   },
   {
     platform: 'Matrix',

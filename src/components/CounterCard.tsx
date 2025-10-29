@@ -7,7 +7,7 @@ const CounterCard = () => {
 
   const fetchCount = async () => {
     try {
-      const res = await fetch('https://counter.devlencio.workers.dev/get')
+      const res = await fetch('https://counter.coinflipcoder.workers.dev/get')
       const data = await res.json()
       setCount(data.count)
     } catch {
@@ -19,7 +19,7 @@ const CounterCard = () => {
     if (isLoading) return // Prevent multiple simultaneous clicks
 
     setIsLoading(true) // Set loading state to true to disable button
-    const res = await fetch('https://counter.devlencio.workers.dev/increment')
+    const res = await fetch('https://counter.coinflipcoder.workers.dev/increment')
     const data = await res.json()
     setCount(data.count)
     setIsLoading(false)

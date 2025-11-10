@@ -7,6 +7,12 @@
   --font-meslo: 'MesloLGM Nerd Font', monospace;
 }
 
+@layer components {
+  .image-rendering-pixelated {
+    image-rendering: pixelated;
+  }
+}
+
 @font-face {
   font-family: 'MesloLGM Nerd Font';
   src: url('/fonts/MesloLGMNerdFont-Regular.ttf') format('truetype');

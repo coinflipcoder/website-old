@@ -7,7 +7,7 @@ const MicroButtonCard = () => {
   return (
     <GenericCard className='text-center'>
       <h2 className='mb-4 text-2xl font-semibold'>Cool People</h2>
-      <div className='flex flex-wrap justify-center gap-x-2 gap-y-2'>
+      <div className='flex flex-wrap justify-center gap-x-2 gap-y-2 image-rendering-pixelated'>
         {buttons.map((button, index) => (
           <a key={index} href={button.website} target='_blank' rel='noopener noreferrer'>
             <Image src={'/cdn/' + button.image} alt={button.website} width={88} height={31} />
@@ -15,7 +15,7 @@ const MicroButtonCard = () => {
         ))}
       </div>
       <h2 className='mt-4 mb-4 text-2xl font-semibold'>Silly Badges</h2>
-      <div className='mb-6 flex flex-wrap justify-center gap-x-2 gap-y-2'>
+      <div className='mb-6 flex flex-wrap justify-center gap-x-2 gap-y-2 image-rendering-pixelated'>
         {badges.map((button, index) => (
           <a key={index} href={button.website} target='_blank' rel='noopener noreferrer'>
             <Image src={'/cdn/88x31s/' + button.image} alt={button.website || 'Badge'} width={88} height={31} />

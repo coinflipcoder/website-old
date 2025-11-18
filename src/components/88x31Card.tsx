@@ -1,5 +1,4 @@
 import GenericCard from '@/components/GenericCard'
-import React from 'react'
 import { buttons, badges } from '@/content/88x31Buttons'
 import Image from 'next/image'
 

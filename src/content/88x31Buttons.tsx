@@ -1,7 +1,7 @@
 export const buttons = [
   {
-    image: '88x31.png',
-    website: 'https://devlencio.net/',
+    image: 'fabi.gif',
+    website: 'https://coinflipcoder.dev/',
   },
   {
     image: '88x31s/lina.gif',
@@ -34,10 +34,6 @@ export const buttons = [
   {
     image: '88x31s/magmaus3.png',
     website: 'https://magmaus3.eu.org/',
-  },
-  {
-    image: '88x31s/ssi.gif',
-    website: 'https://ssi.fyi/',
   },
   {
     image: '88x31s/restart.png',
@@ -135,10 +131,6 @@ export const badges = [
     image: 'hatems.png',
   },
   {
-    image: 'lineageos.png',
-    website: 'https://lineageos.org/',
-  },
-  {
     image: 'getan88x31now.png',
   },
   {
@@ -152,16 +144,5 @@ export const badges = [
   {
     image: 'matrix.png',
     website: 'https://matrix.org/',
-  },
-  {
-    image: 'jetbrains.png',
-    website: 'https://jetbrains.com/',
-  },
-  {
-    image: 'kde.gif',
-    website: 'https://kde.org/',
-  },
-  {
-    image: 'lowtiergod.png',
   },
 ]

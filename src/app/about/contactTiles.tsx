@@ -7,9 +7,9 @@ const contactLinks = [
   },
   {
     platform: 'Matrix',
-    url: 'https://matrix.to/#/@devlencio:matrix.org',
+    url: 'https://matrix.to/#/@me:coinflipcoder.dev',
     icon: '[m]',
-    name: '@devlencio:matrix.org',
+    name: '@me:coinflipcoder.dev',
   },
   {
     platform: 'GitHub',

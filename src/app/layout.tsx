@@ -94,8 +94,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta property='og:title' content='Coinflipcoders site' />
         <meta property='og:description' content='Click for free robux!!!1' />
         <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://devlencio.net' />
-        <meta property='og:image' content='https://devlencio.net/favicon.gif' />
+        <meta property='og:url' content='https://coinflipcoder.dev' />
+        <meta property='og:image' content='https://coinflipcoder.dev/favicon.gif' />
 
         <meta content='#438ff2' data-react-helmet='true' name='theme-color' />
       </head>

@@ -1,1 +1,1 @@
-This is my personal website. Be nice to it.
+My old website. Dead project.
